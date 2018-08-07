@@ -1,0 +1,8 @@
+<div class = "container-show">
+
+<h1><%=@article.title%> | <%= link_to "Edit", edit_article_path(@article)%> | <%= link_to "Delete", article_path(@article), method: :delete, data:{confirm: "Detlete - Are you sure?"}%></h1>
+<br>
+<p><%=@article.content%></p>
+
+<p><%=link_to "View Articles", articles_path%></p>
+</div>

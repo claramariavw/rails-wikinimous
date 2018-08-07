@@ -1,0 +1,29 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container-index{
+  text-align: center;
+  font-family: roboto;
+  background-color: white;
+  padding: 20px;
+
+  a {
+    color: #2864A8;
+    text-decoration:none;
+    font-size: 32px;
+    font-family: roboto slab;
+    font-weight: bolder;
+  }
+ .content{
+   margin-bottom: 30px;
+   font-size:22px;
+   list-style-type: none;
+ }
+
+ .title{
+   list-style-type: none;
+ }
+
+}
+
+
